@@ -1,14 +1,14 @@
 
-import { NextFunction, Response } from 'express';
-import { Request } from 'express';
+import { NextFunction, Response, Request } from 'express';
 
-export function onlyAdmin(res: Response, req: Request, next: NextFunction) {
+
+export function onlyAdmin(response:Response, req: Request, next: NextFunction) {
     const admin = true;
 
     if (admin) {
         return next()
     }
-    return res.status(401).json({
+    return response.status(401).json({
         error: 'User is not admin'
     })
 }
