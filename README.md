@@ -13,6 +13,8 @@ sempre que utilizamos por exemplo app.use(...) estamos utilizando conceito de Mi
 
 Quando for utilizar Middleware de erro, precisamos passar 4 parâmetros.
 
+relacionamento entre tabelas chamamos de ```foreignKeys```
+
 # JWT - json web token
 
 token que é passado quando precisamos de autenticação
