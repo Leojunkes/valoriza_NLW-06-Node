@@ -29,4 +29,14 @@ pra verificar se a senha está correta utilizamos a o ```compare from 'bcrypt'``
 
 pra gerar o token pra gente utilizaremos ```signin from 'jsonwebtoken'```
 
+# Authenticated Middleware
+
+Vamos utilizar o Bearer Token
+
+- Receber o token
+- Validar se o token está preenchido
+- Validar se o token é válido 
+- REcuperar informações do usuário
+
+
 
