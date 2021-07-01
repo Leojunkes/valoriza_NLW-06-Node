@@ -38,5 +38,13 @@ Vamos utilizar o Bearer Token
 - Validar se o token é válido 
 - REcuperar informações do usuário
 
+Podemos receber as infomaçoes enviadas tanto nos compliments, Tag, User, para isso utilizaremos o método GET-e para isso devemos criar uma rota de GET, temos que criar mais um service e um controller
+
+# Lib Class-Transformer
+
+o que é - Se quizermos alterar/customizar algum elemento dentro do banco de dados EX:recebemos o elemente user e queremos colocar algum numero ou simbolo na frente deste nome com @EXPOSE
+
+Com essa lib podemos ocultar dados que quizermos , por exemplo o password.
+
 
 
