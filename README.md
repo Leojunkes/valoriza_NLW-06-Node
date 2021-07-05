@@ -46,5 +46,9 @@ o que é - Se quizermos alterar/customizar algum elemento dentro do banco de dad
 
 Com essa lib podemos ocultar dados que quizermos , por exemplo o password.
 
+# Criando Rotas gente
+
+ao criar uma rota GET, estamos buscando as informaçoes no banco de dados, e para  fazer isso devemos criar um serviço e um controller, e após isso fazer a rota ```router.get("/tags", ensureAuthenticated, listTagsController.handle)```
+
 
 
